@@ -1,0 +1,15 @@
+body {
+  margin: 25px;
+}
+
+.polard {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.allow {
+  text-align: center;
+  padding: 10px 20px;
+}

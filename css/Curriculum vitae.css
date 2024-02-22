@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  /* width: auto; */
+  height: 100vh;
+}
+
+/* styling of the main header*/
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  background-color: blue;
+  margin-bottom: 15px;
+  color: white;
+  border: 1px solid black;
+}
+
+/* Styling the nav and anchor tag  */
+
+.container {
+  background-color: blue;
+  padding: 16px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  margin: 2px;
+}
+
+/* nav using hover and active pseudo class */
+nav a:hover {
+  background-color: darkblue;
+}
+nav a:active {
+  background-color: black;
+}
+
+main {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Giving each section of the page a text decoration underline with the class name called title  */
+
+/* styling of each section of the page using a box shadow */
+
+.Profile {
+  height: 8rem;
+  width: 70rem;
+  padding: 20px;
+  line-height: 1.5;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Attributes */
+.Attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70rem;
+  padding: 20px;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.Attributes ul {
+  padding-left: 1rem;
+}
+li {
+  list-style-type: square;
+  line-height: 1.5;
+}
+/* Attributes */
+
+/* Work */
+.Work {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 17rem;
+  width: 70rem;
+  padding: 20px;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Work ul {
+  padding-left: 1rem;
+}
+/* Work */
+
+/* education */
+.Education {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70rem;
+  height: 11rem;
+  padding: 20px;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 0.5;
+}
+/* education */
+
+/* training */
+.training {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70rem;
+  height: 9rem;
+  padding: 20px;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 0.5;
+}
+/* training */
+
+/* Tech */
+.Tech {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70rem;
+  height: 5.5rem;
+  padding: 20px;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 0.8;
+}
+.referees {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70rem;
+  height: 5.5rem;
+  padding: 20px;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 0.8;
+}
+/* ref */
+.referees ul {
+  padding-left: 1rem;
+}
+/* ref */
+
+/* Contact */
+.Contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70rem;
+  height: 11rem;
+  padding: 20px;
+  background-color: white;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  line-height: 0.5;
+}
+/* Contact */
+
+/* photo */
+
+.Profile-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  width: 70rem;
+  height: 14rem;
+  /* padding: 75px 45px; */
+  padding-top: 45px;
+  padding-bottom: 45px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.photo {
+  width: 60%;
+}
+/* photo */
